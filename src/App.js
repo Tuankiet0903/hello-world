@@ -1,8 +1,10 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Greet from './component/greet';
 import Welcome from './component/Welcome';
 import Hello from './component/Hello';
+import Message from './component/Message';
+import Counter from './component/Counter';
 
 
 function App() {
@@ -17,6 +19,8 @@ function App() {
       <Welcome name='Clark1' heroName ='Supperman1'/>
       <Welcome name='Clark2' heroName ='Supperman2'/>
       <Hello />
+      <Message/>
+      <Counter/>
     </div>
   );
 }
