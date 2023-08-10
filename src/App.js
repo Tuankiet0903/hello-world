@@ -1,6 +1,12 @@
 
+
 import './App.css';
-import LifecycleA from './component/LifecycleA';
+import ParentComp from './component/ParentComp';
+// import FangmentDemo from './component/FangmentDemo';
+import PureComp from './component/PureComponent';
+import RegComp from './component/RegComp';
+// import Table from './component/Table';
+// import LifecycleA from './component/LifecycleA';
 // import Greet from './component/greet';
 // import Welcome from './component/Welcome';
 // import Hello from './component/Hello';
@@ -19,11 +25,17 @@ import LifecycleA from './component/LifecycleA';
 // import Form from './component/form';
 
 
+
 function App() {
   return (
     <div className="App">
+      <ParentComp/>
 
-      <LifecycleA/>
+  {/* <FangmentDemo/>
+  <Table/> */}
+
+
+      {/* <LifecycleA/> */}
 
      {/* <Form/> */}
 
